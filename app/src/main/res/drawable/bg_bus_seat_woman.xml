@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- View background color -->
+    <solid
+        android:color="@color/bg_seat_woman" >
+    </solid>
+
+    <!-- View border color and width -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/black" >
+    </stroke>
+
+    <!-- The radius makes the corners rounded -->
+    <corners
+        android:radius="3dp" >
+    </corners>
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"/>
+    <size android:height="35dp" android:width="35dp"/>
+
+</shape>

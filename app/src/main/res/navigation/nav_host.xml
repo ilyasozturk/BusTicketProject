@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.busticketprojectkotlin.ui.home_screen.HomeFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_searchDestinationFragment"
+            app:destination="@id/searchDestinationFragment" />
+        <argument
+            android:name="cityName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="arrivalOrDepartureOtion"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_searchFragment_to_busListFragment"
+            app:destination="@id/busListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchDestinationFragment"
+        android:name="com.example.busticketprojectkotlin.ui.search_destination_screen.SearchDestinationFragment"
+        android:label="SearchDestinationFragment"
+        tools:layout="@layout/fragment_search_destination">
+        <action
+            android:id="@+id/action_searchDestinationFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <argument
+            android:name="arrivalOrDepartureOptions"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/busListFragment"
+        android:name="com.example.busticketprojectkotlin.ui.bus_list_screen.BusListFragment"
+        android:label="fragment_bus_list"
+        tools:layout="@layout/fragment_bus_list" >
+        <action
+            android:id="@+id/action_busListFragment_to_busSeatFragment"
+            app:destination="@id/busSeatFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/busSeatFragment"
+        android:name="com.example.busticketprojectkotlin.ui.bus_seat_screen.BusSeatFragment"
+        android:label="fragment_bus_seat"
+        tools:layout="@layout/fragment_bus_seat" >
+        <argument
+            android:name="busListModel"
+            app:argType="com.example.busticketprojectkotlin.model.BustListModel" />
+        <action
+            android:id="@+id/action_busSeatFragment_to_selectedSeatDetailFragment"
+            app:destination="@id/selectedSeatDetailFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/selectedSeatDetailFragment"
+        android:name="com.example.busticketprojectkotlin.ui.seat_detail_screen.SelectedSeatDetailFragment"
+        android:label="SelectedSeatDetailFragment"
+        tools:layout="@layout/fragment_selected_seat_detail">
+        <argument
+            android:name="busListModel"
+            app:argType="com.example.busticketprojectkotlin.model.BustListModel" />
+        <argument
+            android:name="totalPrice"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="selectedSeatSize"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="selectedSeatNoList"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="selectedSeatGenderList"
+            app:argType="string[]"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

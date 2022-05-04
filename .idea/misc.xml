@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_list_card.xml" value="0.225" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_seat.xml" value="0.3875" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_seat_empty.xml" value="0.23958333333333334" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_seat_man.xml" value="0.23958333333333334" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_seat_selected.xml" value="0.23958333333333334" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_bus_seat_woman.xml" value="0.23958333333333334" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_button_cerceve.xml" value="0.23802083333333332" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_button_line.xml" value="0.23802083333333332" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_payment_button.xml" value="0.3375" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_search_bar.xml" value="0.22239583333333332" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_search_button.xml" value="0.3880208333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bg_search_edit_text.xml" value="0.22239583333333332" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/bus_front_new.xml" value="0.38385416666666666" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/dot_line.xml" value="0.3880208333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/ic_arrow_right.xml" value="0.23489583333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/ic_calendar.xml" value="0.3875" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/ic_circle_bottom.xml" value="0.3880208333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/ic_circle_top.xml" value="0.3880208333333333" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265625" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/drawable/raunded_dialog.xml" value="0.38385416666666666" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/bus_list_recyler_row.xml" value="0.5" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/bus_seat_pop_up.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/card_view.xml" value="0.22604166666666667" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/city_search_recycler_row.xml" value="0.276268115942029" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/custom_dialog.xml" value="1.2267441860465116" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/deneme.xml" value="0.371875" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/dropdown_item.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_bus_list.xml" value="0.2957427536231884" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_bus_seat.xml" value="0.35733695652173914" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_search_destination.xml" value="0.28940217391304346" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_seat_four.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_seat_one.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_seat_three.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_seat_two.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/fragment_selected_seat_detail.xml" value="0.2819488817891374" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/loading_dialog.xml" value="0.22916666666666666" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/layout/payment_page_screen.xml" value="0.36770833333333336" />
+        <entry key="..\:/BusTicketProjectKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
